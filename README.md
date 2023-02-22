@@ -1,21 +1,18 @@
 ## Project description
-Repository related to development for REST Api prototype model to handle Large scale medical insurance plans
-  
-[**Architecture diagram**](https://github.com/SaiChandGhanta/medical-insurance-plans/blob/main/ArchitectureDiagram.pdf)
+REST Api prototype model to handle **large scale** medical insurance plans
 
-## Contents
-In this project, we will develop a REST Api to parse a JSON schema model divided into three demos
-1. **Prototype demo 1**
-    1. Develop a Spring Boot based REST Api to parse a given sample JSON schema.
-    2. Save the JSON schema in a redis key value store.
-    3. Demonstrate the use of operations like `GET`, `POST` and `DELETE` for the first prototype demo.
-2. **Prototype demo 2**
-    1. Regress on your model and perform additional operations like `PUT` and `PATCH`.
-    2. Secure the REST Api with a security protocol like JWT or OAuth2.
-3. **Prototype demo 3**
-    1. Adding Elasticsearch capabilities
-    2. Using RedisSMQ for REST API queueing
+## Architecture  
+![**Architecture**](https://github.com/SaiChandGhanta/medical-insurance-plans/blob/main/ArchitectureDiagram.jpg)
 
+
+## Overview
+In this project, we will develop a REST Api to parse a JSON schema model
+1. Java Spring Boot rest API application validates incoming payloads with JSON schema
+2. Performs conditional writes(using etags) to redis key value store
+3. Secured APIs using RS256 algorithm
+4. Search functionality using Elasticsearch
+5. Queuing mechanism using RabbitMQ
+    
 ## Pre-requisites
 1. Java
 2. Maven 
