@@ -1,8 +1,8 @@
 ## Northeastern University (Jan 2020 - April 2020)
 
-Repository related to development for REST Api prototype model demo work for INFO 7255  
+Repository related to development for REST Api prototype model to handle Large scale medical insurance plans
   
-[**Architecture diagram**](https://github.com/Jagman13/info7255-BigDataIndexing/blob/master/ArchitectureDiagram.pdf)
+[**Architecture diagram**](https://github.com/SaiChandGhanta/info7255-BigDataIndexing/blob/master/ArchitectureDiagram.pdf)
 
 ## Contents
 In this project, we will develop a REST Api to parse a JSON schema model divided into three demos
