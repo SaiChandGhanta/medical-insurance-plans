@@ -1,8 +1,7 @@
-## Northeastern University (Jan 2020 - April 2020)
-
+## Project description
 Repository related to development for REST Api prototype model to handle Large scale medical insurance plans
   
-[**Architecture diagram**](https://github.com/SaiChandGhanta/info7255-BigDataIndexing/blob/master/ArchitectureDiagram.pdf)
+[**Architecture diagram**](https://github.com/SaiChandGhanta/medical-insurance-plans/blob/main/ArchitectureDiagram.pdf)
 
 ## Contents
 In this project, we will develop a REST Api to parse a JSON schema model divided into three demos
